@@ -129,8 +129,8 @@ view: item {
     sql: ${TABLE}.i_units ;;
   }
 
-  dimension: i_wholesale_cost {
-    type: number
+  measure: i_wholesale_cost {
+    type: sum
     sql: ${TABLE}.i_wholesale_cost ;;
   }
 

@@ -7,7 +7,7 @@ view: inventory {
     sql: ${TABLE}.inv_date_sk ;;
   }
 
-  dimension: inv_item_sk {
+  measure: inv_item_sk {
     type: number
     sql: ${TABLE}.inv_item_sk ;;
   }
