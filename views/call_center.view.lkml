@@ -176,7 +176,7 @@ view: call_center {
 
   dimension: cc_zip {
     type: string
-    sql: ${TABLE}.cc_zip ;;
+    sql: .cc_zip ;;
   }
 
   measure: count {
